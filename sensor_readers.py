@@ -1,5 +1,12 @@
 from example_data import example_ecg, example_temperature, example_sao2
 
+def stop_reading():
+    '''
+    Called automatically when the sensor reading stops
+    You can e.g. stop sensors here.
+    '''
+    pass
+
 def read_ecg_sensor(writer, now):
     '''
     Read ECG values

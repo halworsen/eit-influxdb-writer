@@ -34,4 +34,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print('Keyboard interrupt detected, exiting...')
 
+    sr.stop_reading()
     writer.stop()
